@@ -8,6 +8,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-L.marker([34.0515, -118.2225]).addTo(map);
-// .bindPopup("I could be here LOL.")
-// .openPopup();
+L.marker([34.0515, -118.2225])
+  .addTo(map)
+  .openPopup()
+  .bindPopup("I could be here LOL.");

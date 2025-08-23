@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -33,7 +39,12 @@
         <div class="info-container">
           <div class="title">IP Address Tracker</div>
           <div class="ip-input">
-            <input type="text" name="ip-search" id="ip-input" />
+            <input
+              type="text"
+              name="ip-search"
+              id="ip-input"
+              placeholder="192.212.174.101"
+            />
             <div class="search-btn">
               <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14">
                 <path
@@ -65,7 +76,7 @@
           </div>
         </div>
       </section>
-      <div id="map"></div>
+      <div id="map" style="z-index: 1"></div>
     </section>
     <!-- <footer class="projet-info">
       <div class="attribution">
